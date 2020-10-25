@@ -26,7 +26,7 @@ export class HttpRequestService {
       "idx":"100",
       "freeBoardIdx":"55",
       "reply":"abcdefg",
-      "replyWriter":"test123"
+      "replyWriter":"test122"
     }
     const postReq = this.http
     .post('http://localhost:8080/replies/register',bodyObj);
