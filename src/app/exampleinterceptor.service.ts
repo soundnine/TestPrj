@@ -15,6 +15,7 @@ export class ExampleinterceptorService {
      
      return next.handle(clonedRequest).pipe(catchError((e) => {
       console.log(e.error.error.message);
+      console.log('test');
       return throwError(e);
    })); 
     }
